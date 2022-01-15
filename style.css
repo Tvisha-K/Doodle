@@ -1,0 +1,77 @@
+.modal-dialog{
+
+    width: 70%;
+
+}
+
+#show_sketch{
+
+    float: right;
+
+    margin-right: 20px;
+
+    margin-top: 2px;
+
+}
+
+canvas{
+
+    border: 2px solid rgb(184, 183, 183);
+
+    border-radius: 20px ;
+
+    margin-top: 120px;
+
+    animation-name: animation;
+
+    animation-duration: 4s;
+
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation{
+
+    from{box-shadow: 5px 5px 25px cyan;  }
+
+    to{box-shadow: 5px 5px 25px  blue;}
+
+}
+
+body{
+
+    background-color:violet ;
+
+}
+
+h1{
+
+    padding-left: 150px;
+
+    background-color: lavender;
+
+}
+
+p{
+
+    font-size: 22px;
+
+    padding-top: 25px;
+
+}
+
+.footer{
+
+    position: fixed;
+
+    bottom: 0px;
+
+    background-color: lavenderblush;
+
+    width: 100%;
+
+    text-align: center;
+
+    line-height: 2;
+
+}
